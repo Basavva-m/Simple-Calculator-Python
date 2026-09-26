@@ -1,29 +1,29 @@
-# Simple-Calculator-Python
-A simple calculator program using Python
-def add(x,y):
-    return x+y
-def substract(x,y):
-    return x-y
-def multiply(x,y):
-    return x*y
-def divide(x,y):
-    return x/y if y!=0 else "Error"
+# Simple Calculator in Python
 
-num1 = float(input("Enter first number: "))
-operator = input("Enter operator (+, -, *, /): ")
-num2 = float(input("Enter second number: "))
+A simple calculator program using Python.
 
-if operator == "+":
-    print("Result:", add(num1, num2))
+## Features
 
-elif operator == "-":
-    print("Result:", subtract(num1, num2))
+- Addition
+- Subtraction
+- Multiplication
+- Division
 
-elif operator == "*":
-    print("Result:", multiply(num1, num2))
+## Technologies Used
 
-elif operator == "/":
-    print("Result:", divide(num1, num2))
+- Python
 
-else:
-    print("Invalid operator")
+## How to Use
+
+1. Run the `calculator.py` program.
+2. Enter the first number.
+3. Enter an operator: `+`, `-`, `*`, or `/`.
+4. Enter the second number.
+5. The result will be displayed.
+
+## Example
+
+Enter first number: 10
+Enter operator (+, -, *, /): +
+Enter second number: 5
+Result: 15.0
